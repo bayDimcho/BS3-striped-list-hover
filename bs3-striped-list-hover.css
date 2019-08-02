@@ -1,0 +1,17 @@
+/* fix column width */
+
+.container.list-group>.row.list-group-item {
+	display: flex;
+}
+
+/* striped each even row */
+
+.list-striped>*:nth-child(2n) {
+	background-color: #eee;
+}
+
+/* hover effect (overwrite) */
+
+.list-hover>*:hover {
+	background-color: #ccc;
+}
